@@ -3,20 +3,20 @@ Upstream-Name: Types-DateTime
 Upstream-Contact: Toby Inkster (TOBYINK) <tobyink@cpan.org>
 Source: https://metacpan.org/release/Types-DateTime
 
-Files: Changes
- META.json
- META.yml
- dist.ini
- doap.ttl
-Copyright: Copyright 2014 Toby Inkster.
-License: GPL-1.0+ or Artistic-1.0
-
 Files: README
  lib/Types/DateTime.pm
  t/01basic.t
  t/03format.t
  t/04tostr.t
 Copyright: This software is copyright (c) 2014 by Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: Changes
+ META.json
+ META.yml
+ dist.ini
+ doap.ttl
+Copyright: Copyright 2014 Toby Inkster.
 License: GPL-1.0+ or Artistic-1.0
 
 Files: COPYRIGHT
@@ -31,12 +31,12 @@ Files: CONTRIBUTING
 Copyright: Unknown
 License: Unknown
 
-Files: t/02mxtdt.t
-Copyright: Copyright (c) 2008-2014 Yuval Kogman.
-License: GPL-1.0+ or Artistic-1.0
-
 Files: Makefile.PL
 Copyright: Copyright 2013 Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: t/02mxtdt.t
+Copyright: Copyright (c) 2008-2014 Yuval Kogman.
 License: GPL-1.0+ or Artistic-1.0
 
 License: Artistic-1.0

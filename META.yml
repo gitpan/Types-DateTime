@@ -25,7 +25,7 @@ optional_features: {}
 provides:
   Types::DateTime:
     file: lib/Types/DateTime.pm
-    version: 0.000_01
+    version: 0.001
 requires:
   DateTime: 0
   DateTime::Duration: 0
@@ -39,4 +39,4 @@ resources:
   homepage: https://metacpan.org/release/Types-DateTime
   license: http://dev.perl.org/licenses/
   repository: git://github.com/tobyink/p5-types-datetime.git
-version: 0.000_01
+version: 0.001

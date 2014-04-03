@@ -35,9 +35,9 @@ my $meta = {
                                      },
                       },
   "provides"       => {
-                        "Types::DateTime" => { file => "lib/Types/DateTime.pm", version => "0.000_01" },
+                        "Types::DateTime" => { file => "lib/Types/DateTime.pm", version => 0.001 },
                       },
-  "release_status" => "testing",
+  "release_status" => "stable",
   "resources"      => {
                         bugtracker   => {
                                           web => "http://rt.cpan.org/Dist/Display.html?Queue=Types-DateTime",
@@ -51,7 +51,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/Types-DateTime/project",
                       },
-  "version"        => "0.000_01",
+  "version"        => 0.001,
 };
 
 my %dynamic_config;

@@ -30,7 +30,8 @@ DESCRIPTION
             sub-second precision, see DateTime for details.
 
         from `HashRef`
-            Calls "new" in DateTime with the hash entries as arguments.
+            Calls "new" in DateTime or "from_epoch" in DateTime as
+            appropriate, passing the hash as arguments.
 
         from `Now`
             Uses "now" in DateTime.
@@ -127,7 +128,9 @@ DESCRIPTION
         Or:
 
            DateTimeUTC->plus_coercions(
-              DateTime::Format::Natural->new(lang => 'en')
+              Format[
+                 DateTime::Format::Natural->new(lang => 'en')
+              ]
            )
 
     `Strftime[`a]`
@@ -140,7 +143,7 @@ DESCRIPTION
         A coercion for serializing a DateTime object into a string using
         "iso8601" in DateTime.
 
-           Str->plus_coercions(ToISO8601);
+           Str->plus_coercions( ToISO8601 );
 
 BUGS
     Please report any bugs to
